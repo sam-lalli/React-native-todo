@@ -2,7 +2,7 @@ import React from 'react';
 import { StyleSheet, Text, View, TouchableOpacity, } from "react-native";
 import { MaterialIcons } from '@expo/vector-icons';
 
-export default TaskItem = (props) => {
+const TaskItem = (props) => {
     return (
         <View style={styles.container}>
             <View style={styles.indexContainer}>
@@ -57,3 +57,5 @@ const styles = StyleSheet.create({
         marginLeft: 10,
     },
 });
+
+export default TaskItem

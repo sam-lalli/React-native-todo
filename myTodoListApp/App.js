@@ -18,7 +18,7 @@ export default function App() {
 
   return (
     <View style={styles.container}>
-        <Text style={styles.heading}>TODO LIST</Text>
+        <Text style={styles.heading}>Things I need more of in my life</Text>
       <ScrollView style={styles.scrollView}>
         {
         tasks.map((task, index) => {
